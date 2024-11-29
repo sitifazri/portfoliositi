@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../PROJEKKEL3"
+		},
+		{
+			"path": "../portfoliositifazri"
+		},
+		{
+			"path": "../../xampp/htdocs/latihan"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../sitifazriarohmah11rpl1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfoliositi"
+	}
+}

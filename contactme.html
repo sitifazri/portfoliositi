@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .contact-form {
+      background-color: #d9b38c;
+      padding: 20px;
+      border-radius: 10px;
+      width: 460px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 95%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .contact-form textarea {
+      height: 100px;
+      resize: none;
+    }
+    .contact-form button {
+      background-color: #6c5ce7;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .contact-form button:hover {
+      background-color: #4834d4;
+    }
+    .contact-info {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .contact-info p {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info p img {
+      margin-right: 10px;
+    }
+    .contact-info a {
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-form">
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="E-mail" required>
+      <textarea placeholder="You Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Blok.Gunung Windu, Desa.Cipicung,<br>Kec.Maja, Kab Majalengka</strong></p>
+      <p>
+        <img src="https://img.icons8.com/ios-filled/16/000000/whatsapp.png" alt="WhatsApp"> 
+        <a href="https://wa.me/6285721848083" target="_blank">+6285721848083</a>
+      </p>
+      <p>
+        <img src="https://img.icons8.com/ios-filled/16/000000/instagram-new.png" alt="Instagram"> 
+        <a href="https://instagram.com/stifziarhmh_" target="_blank">@stifziarhmh_</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
