@@ -145,7 +145,7 @@ span{
 
 .btn:hover{
     transform: scale3d(1.03);
-    background-color: transparent;
+    background-color: #fff;
     color: #fff;
     border: 3px solid #A18966;
 }
